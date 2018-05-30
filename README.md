@@ -4,7 +4,7 @@ Projet Drone
 # Introduction 
 
 Pour notre projet de fin de première année d'ecole supérieur d'ingénieurs de Rennes nous avons du réaliser un drone avec un objectif particulier. 
-Nous avons décider de réaliser un logicel de topographie, en reconsitutant en 3D les données récupéré par les capteurs du drone (GPS, lidar, giriscope etc).
+Nous avons décider de réaliser un logicel de topographie, en reconsitutant en 3D les données récupérées par les capteurs du drone (GPS, lidar, giriscope etc).
 Pour ce réaliser se projet de drone et de software nous avons utilisés ces technologies :
 
 # Drone : 
