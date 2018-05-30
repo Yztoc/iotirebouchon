@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paneMenuCharger" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="1135.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="554.0" prefWidth="1137.0" style="-fx-background-color: linear-gradient(from 0% 50% to 100% 100%, rgb(57,74,92),rgb(52,43,60));">
+         <children>
+            <ImageView fitHeight="102.0" fitWidth="110.0" layoutX="18.0" layoutY="10.0">
+               <image>
+                  <Image url="@ressources/icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="156.0" layoutY="20.0" text="Credit : Eleves ingénieurs" textFill="WHITE">
+               <font>
+                  <Font name="Calibri" size="48.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="960.0" layoutY="19.0">
+               <image>
+                  <Image url="@ressources/esir_0.png" />
+               </image>
+            </ImageView>
+            <Separator layoutY="97.0" prefHeight="17.0" prefWidth="1138.0" />
+            <Button fx:id="btnRetourCredit" layoutX="14.0" layoutY="507.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: white;" text="Retour" textFill="WHITE" />
+            <Label layoutX="54.0" layoutY="143.0" prefHeight="35.0" prefWidth="195.0" text="Thomas Stéphant " textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="342.0" layoutY="143.0" prefHeight="35.0" prefWidth="195.0" text="Alex De Ceita " textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="589.0" layoutY="143.0" prefHeight="35.0" prefWidth="195.0" text="Benoît Bernier" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="841.0" layoutY="143.0" prefHeight="35.0" prefWidth="195.0" text="Alexendre Blandel" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="258.0" fitWidth="969.0" layoutX="75.0" layoutY="211.0">
+               <image>
+                  <Image url="@ressources/background_credit.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

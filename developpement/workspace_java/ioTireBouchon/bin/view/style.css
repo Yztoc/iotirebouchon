@@ -1,0 +1,7 @@
+.input
+{
+    -fx-text-inner-color: red;
+}
+#circle {
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgb(143,59,174),rgb(70,161,231));
+}

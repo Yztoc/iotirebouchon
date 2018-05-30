@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="1135.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="555.0" prefWidth="338.0" style="-fx-background-color: linear-gradient(from 0% 50% to 100% 100%, rgb(57,74,92),rgb(52,43,60));">
+         <children>
+            <Button fx:id="btnValider" layoutX="220.0" layoutY="475.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: white;" text="Valider" textFill="WHITE" />
+            <Label layoutX="10.0" layoutY="158.0" text="Nom Vol : " textFill="WHITE" />
+            <TextField id="input" fx:id="textVol" layoutX="110.0" layoutY="154.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-text-inner-color: white;" />
+            <Label layoutX="10.0" layoutY="200.0" text="Nom Pilote : " textFill="WHITE" />
+            <TextField fx:id="textPilote" layoutX="109.0" layoutY="195.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-text-inner-color: white;" />
+            <DatePicker fx:id="textDate" layoutX="109.0" layoutY="237.0" prefHeight="26.0" prefWidth="149.0" style="-fx-background-color: transparent; -fx-border-color: white;" />
+            <Label layoutX="12.0" layoutY="239.0" text="Date Vol :" textFill="WHITE" />
+            <Label layoutX="13.0" layoutY="277.0" text="Fichier Log:" textFill="WHITE" />
+            
+                        <Label layoutX="111.0" layoutY="115.0" text="Informations vol " textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnOuvrir" layoutX="109.0" layoutY="275.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: white;" text="Ouvrir" textFill="WHITE" />
+            <Label layoutX="111.0" layoutY="339.0" text="Information Map" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="377.0" text="Nom Map :" textFill="WHITE" />
+            <TextField fx:id="textMap" layoutX="106.0" layoutY="376.0" prefHeight="26.0" prefWidth="149.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-text-inner-color: white;" />
+            <ImageView fitHeight="96.0" fitWidth="96.0" layoutX="10.0" layoutY="8.0">
+               <image>
+                  <Image url="@ressources/icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="103.0" layoutY="42.0" text="IoTireBouchon" textFill="WHITE">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnRetour" layoutX="39.0" layoutY="476.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: white;" text="Retour" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Pane fx:id="paneMapGoogle" layoutX="339.0" layoutY="-7.0" prefHeight="542.0" prefWidth="786.0" />
+   </children>
+</AnchorPane>
