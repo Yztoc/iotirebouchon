@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Draggable Polygons</title>
+    <style>
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+    
+        
+      var rectangle;
+        
+      function initMap() {
+
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: {lat: 48.117932, lng: -1.636422},
+          mapTypeId: 'terrain'
+        });
+
+
+        var bounds = {
+          north: 48.115455,
+          south: 48.113908,
+          east: -1.638129,
+          west: -1.642593
+        };
+
+        // Define a rectangle and set its editable property to true.
+          rectangle = new google.maps.Rectangle({
+          bounds: bounds,
+          editable: true,
+          draggable: true,
+          geodesic: true
+        });
+
+        rectangle.setMap(map);
+        
+        var sw = rectangle.getBounds().getSouthEast();
+
+          
+        
+        console.log("Se : " + sw.lat());
+      }
+        
+     function getNordOuestLat()
+     {
+        return rectangle.getBounds().getNorthEast().lat();
+     }
+     function getNordOuestLng()
+     {
+        return rectangle.getBounds().getSouthWest().lng();
+     }
+     function getSudEstLat()
+     {
+        return rectangle.getBounds().getSouthWest().lat();
+     }
+     function getSudEstLng()
+     {
+        return rectangle.getBounds().getNorthEast().lng();
+     }
+      
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCmQFFhskhCqKZRBEIMeeSwfwVb-IKPtU&callback=initMap">
+    </script>
+  </body>
+</html>
