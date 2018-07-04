@@ -1,4 +1,4 @@
-FMT, 128, 89, FMT, BBnNZ, Type,Length,Name,Format,Columns
+zFMT, 128, 89, FMT, BBnNZ, Type,Length,Name,Format,Columns
 FMT, 129, 31, PARM, QNf, TimeUS,Name,Value
 FMT, 130, 46, GPS, QBIHBcLLefffB, TimeUS,Status,GMS,GWk,NSats,HDop,Lat,Lng,Alt,Spd,GCrs,VZ,U
 FMT, 131, 46, GPS2, QBIHBcLLefffB, TimeUS,Status,GMS,GWk,NSats,HDop,Lat,Lng,Alt,Spd,GCrs,VZ,U
