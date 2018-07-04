@@ -3,7 +3,7 @@ FMT, 129, 31, PARM, QNf, TimeUS,Name,Value
 FMT, 130, 46, GPS, QBIHBcLLefffB, TimeUS,Status,GMS,GWk,NSats,HDop,Lat,Lng,Alt,Spd,GCrs,VZ,U
 FMT, 131, 46, GPS2, QBIHBcLLefffB, TimeUS,Status,GMS,GWk,NSats,HDop,Lat,Lng,Alt,Spd,GCrs,VZ,U
 FMT, 132, 46, GPSB, QBIHBcLLefffB, TimeUS,Status,GMS,GWk,NSats,HDop,Lat,Lng,Alt,Spd,GCrs,VZ,U
-FMT, 193, 24, GPA, QCCCCBI, TimeUS,VDop,HAcc,VAcc,SAcc,VV,SMS
+xFMT, 193, 24, GPA, QCCCCBI, TimeUS,VDop,HAcc,VAcc,SAcc,VV,SMS
 FMT, 194, 24, GPA2, QCCCCBI, TimeUS,VDop,HAcc,VAcc,SAcc,VV,SMS
 FMT, 195, 24, GPAB, QCCCCBI, TimeUS,VDop,HAcc,VAcc,SAcc,VV,SMS
 FMT, 133, 53, IMU, QffffffIIfBBHH, TimeUS,GyrX,GyrY,GyrZ,AccX,AccY,AccZ,EG,EA,T,GH,AH,GHz,AHz
